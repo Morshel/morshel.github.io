@@ -1,3 +1,78 @@
 body {
-    background-color: F96161;
-}
+    background-color: #4a1d1d;
+  }
+
+  .content-column {
+      background: #632626;
+  }
+  .box-masonry {
+    background: #311313;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 0 0 5px #180909;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .box-masonry h4 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .box-masonry h4 a {
+    color: rgb(255, 255, 255);
+    border-bottom: solid 1px transparent;
+  }
+  .box-masonry h4 a:hover {
+    border-bottom: solid 1px #ff7473;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .box-masonry .box-masonry-text {
+    padding: 15px 20px 15px;
+  }
+  .box-masonry .box-masonry-text p {
+    color: #9b8181;
+    font-size: 14px;
+  }
+  .box-masonry .box-masonry-hover-text-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 15px 20px 15px;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    color: #e75959;
+  }
+  .box-masonry .box-masonry-hover-text-header p {
+    font-size: 14px;
+  }
+  .box-masonry .box-masonry-hover-text-header h4 a {
+    color: #e75959;
+  }
+  .box-masonry .box-masonry-hover-center {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    opacity: 0;
+    padding-left: 20px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    text-align: center;
+  }
+  .box-masonry .box-masonry-hover-center .see-more-icon {
+    color: #e75959;
+    font-size: 50px;
+  }
+  .box-masonry:hover {
+    box-shadow: 0 0 10px #ff7473;
+  }
